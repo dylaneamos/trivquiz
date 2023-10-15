@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Trivquiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <nav id="navbar">
+        <ul>
+            <li><a href="#" id="home-link">Home</a></li>
+            <li><a href="#" id="share-link">Share</a></li>
+        </ul>
+    </nav>
+    <div id="quiz-container">
+        <h1>Test your knowledge!</h1>
+        <p id="question">Question goes here</p>
+        <div id="options">
+            <input type="radio" name="choice" value="choice1" id="choice1">
+            <label for="choice1" id="option1">Option 1</label><br>
+            <input type="radio" name="choice" value="choice2" id="choice2">
+            <label for="choice2" id="option2">Option 2</label><br>
+            <input type="radio" name="choice" value="choice3" id="choice3">
+            <label for="choice3" id="option3">Option 3</label><br>
+            <input type="radio" name="choice" value="choice4" id="choice4">
+            <label for="choice4" id="option4">Option 4</label><br>
+        </div>
+        <button id="next-button">Next</button>
+        <p id="result"></p>
+    </div>
+    <div id="share-section" class="hidden">
+        <p>Invite others to play the quiz and see how they score!</p>
+        <button id="share-button">Share Game</button>
+    </div>
+
+    <!-- Copyright footer -->
+    <div id="copyright">
+        <p>This game was created by <a href="https://www.dylaneamos.com" target="_blank">Amos</a> &copy; All Rights Reserved</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
